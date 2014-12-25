@@ -46,6 +46,8 @@ eagle.epf
 .AppleDouble
 .LSOverride
 
+# Icon must end with two \r
+Icon 
 # Thumbnails
 ._*
 
@@ -67,6 +69,9 @@ Temporary Items
 Thumbs.db
 ehthumbs.db
 
+# Documentatin Masters (just keep .pdf's)
+*.docx
+
 # Folder config file
 Desktop.ini
 
@@ -78,6 +83,3 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-
-# Windows shortcuts
-*.lnk
