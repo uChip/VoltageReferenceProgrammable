@@ -13,7 +13,7 @@ If there is sufficient interest I will build and calibrate a batch of these to s
 ## Order PCBs  
 
 You can order this PCB directly from OSH Park.  Click on the following link.  
-  * Programmable Voltage Reference - http://oshpark.com/shared_projects/ZUurPyY7 
+  * Programmable Voltage Reference - https://oshpark.com/shared_projects/aFUNW4O5 
 
 <img src="https://raw.githubusercontent.com/uChip/VoltageReferenceProgrammable/master/RevDtop.png" alt="PCB Top" height="287" width="550">
 
