@@ -30,7 +30,8 @@ The example code is in Arduino .ino format (text).  A free version of the Arduin
 
 ## Distribution License  
 
-License: All design files are licensed under Creative Commons Universal.  You are welcome to modify the designs or even use them in commercial products.  We ask that you acknowledge that your design is based on StdBx and hope that if you create any additional components or enclosure designs that you contribute them back to the StdBx libraries. 
+License:
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Programmable Voltage Reference</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/uChip/VoltageReferenceProgrammable" property="cc:attributionName" rel="cc:attributionURL">C.Schnarel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
   
 
 
