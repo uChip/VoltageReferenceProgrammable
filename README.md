@@ -2,13 +2,13 @@ Programmable Voltage Reference
 ==============================
 
 <img src="https://raw.githubusercontent.com/uChip/VoltageReferenceProgrammable/master/4000mV.jpg" alt="Programmable Voltage Reference with 1 mV resolution and 100 uV accuracy" height="260" width="390">  
-This repository contains the design files and write-up for a Programmable Voltage Reference.  The reference has a range of 1 mV to 4.095 volts in 1 mV steps.  The accuracy is plus or minus 100 uV for any set value.  The reference value is displayed on a 4 digit LED display and can be set manually using the rotary encoder or remotely over USB.
+This repository contains the design files and write-up for a Programmable Voltage Reference.  The reference has a range of 1 mV to 4.095 volts in 1 mV steps.  The accuracy is plus or minus 100 uV for any set value.  The reference value is displayed on a 4 digit LED display and can be set manually using the rotary encoder or remotely over serial (FTDI port).
 
 The software folder contains an Arduino sketch that is source code for the voltage reference firmware.
 
 See the file PVR.pdf for a more detailed explanation of the project design. 
 
-If there is sufficient interest I will build and calibrate a batch of these to sell.  If you would like one, please contact me through GitHub. 
+If there is sufficient interest I will build and calibrate a batch of these to sell.  If you would like one, please contact me. 
 
 ## Order PCBs  
 
