@@ -6,7 +6,9 @@ This repository contains the design files and write-up for a Programmable Voltag
 
 The software folder contains an Arduino sketch that is source code for the voltage reference firmware.
 
-See the file PVR.pdf for a more detailed explanation of the project design.  
+See the file PVR.pdf for a more detailed explanation of the project design. 
+
+If there is sufficient interest I will build and calibrate a batch of these to sell.  If you would like one, please contact me through GitHub. 
 
 ## Order PCBs  
 
