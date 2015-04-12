@@ -4282,7 +4282,7 @@ Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in ca
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="SMD" value="16MHz"/>
-<part name="U5" library="ChipsParts" deviceset="AD5040" device="BRJZ"/>
+<part name="U5" library="ChipsParts" deviceset="AD5040" device="BRJZ" value="AD5060BRJZ"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
 <part name="TP1" library="ChipsParts" deviceset="TEST_POINT" device=""/>
 <part name="TP2" library="ChipsParts" deviceset="TEST_POINT" device=""/>
