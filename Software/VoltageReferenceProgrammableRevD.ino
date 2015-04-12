@@ -1,10 +1,10 @@
 
 // Include libraries this sketch will use
-#include <ProfileTimer.h>
-#include <SPI.h>
-#include <EEPROM.h>
-#include <Rotary.h>
-#include <Bounce.h>
+//#include <ProfileTimer.h>  // this library was used in development to set display refresh.  No longer used.
+#include <SPI.h>             // part of Arduino distribution
+#include <EEPROM.h>          // part of Arduino distribution
+#include <Rotary.h>          // https://github.com/brianlow/Rotary
+#include <Bounce2.h>         // http://playground.arduino.cc/Code/Bounce
 
 // Defines
 // DAC Maximum value
@@ -65,7 +65,7 @@ static uint8_t	chargen[] = {
 
 // Instantiate objects used in this project
 Rotary r = Rotary(2, 3);
-Bounce button = Bounce(BUTTON, 5);
+Bounce button = Bounce();
 
 int16_t  refVal = 1000;
 uint8_t CmdArray[7];
@@ -91,6 +91,8 @@ void setup() {
   analogWrite(CHARGE_PUMP, 128);
 
   pinMode(BUTTON, INPUT_PULLUP);
+  button.attach(BUTTON);
+  button.interval(5);
   button.update();
   if(button.read() == LOW) {mode = RAW;} else {mode = CORRECTED;}
 
