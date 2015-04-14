@@ -1,3 +1,4 @@
+"NOTE: Altitude on the SparkFun forum points out that the pads for the 0805 parts below are small for hand soldering and that substituting 0603 parts where possible actually makes assembly easier.  If this works for you, there is no functional downside to using the 0603 parts. Thx. - CS"
 "Qty;""Value"";""Device"";""Package"";""Parts"";""Description"";""CNAME"";""CREVISION"";""DATECODE"";""DESIGNER"";",,,,,,,
 "6;""0.1uF"";""CAP0805"";""0805"";""C2", C4, C7, C12, C13," C15"";""Capacitor"";"""";"""";"""";"""";",,
 "1;""10R"";""RESISTOR0805-RES"";""0805"";""R2"";""Resistor"";"""";"""";"""";"""";",,,,,,,
